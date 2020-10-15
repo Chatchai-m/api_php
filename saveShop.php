@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ERROR | E_PARSE);
 
-// Response object structure
+// Response object structure //
 $response = new stdClass;
 $response->status = null;
 $response->message = null;

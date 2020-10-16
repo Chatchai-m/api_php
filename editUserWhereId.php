@@ -22,13 +22,13 @@ if (isset($_GET)) {
 	if ($_GET['isAdd'] == 'true') {
 			
 		$id = $_GET['id'];		
-		$NameShop = $_GET['NameShop'];
-		$Address = $_GET['Address'];
-		$Phone = $_GET['Phone'];
+		$NameShop   = $_GET['NameShop'];
+		$Address    = $_GET['Address'];
+		$Phone      = $_GET['Phone'];
 		$UrlPicture = $_GET['UrlPicture'];
-		$Lat = $_GET['Lat'];
-		$Lng = $_GET['Lng'];
-		$Token = $_GET['Token'];
+		$Lat        = $_GET['Lat'];
+		$Lng        = $_GET['Lng'];
+		$Token      = '';
 							
 		$sql = "UPDATE `userTABLE` SET `NameShop` = '$NameShop', `Address` = '$Address', `Phone` = '$Phone', `UrlPicture` = '$UrlPicture', `Lat` = '$Lat', `Lng` = '$Lng', `Token` = '$Token'  WHERE id = '$id'";
 

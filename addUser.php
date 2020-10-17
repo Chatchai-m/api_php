@@ -25,10 +25,19 @@ if (isset($_GET)) {
 		$User       = $_GET['User'];
 		$Password   = $_GET['Password'];
 		$ChooseType = $_GET['ChooseType'];
-		
+		$NameShop   = '';
+		$Address    = '';
+		$Phone      = '';
+		$UrlPicture = '';
+		$Lat        = '';
+		$Lng        = '';
+		$Token      = '';
+
+
 //		print_r($_GET);
 //		exit;
-		$sql = "INSERT INTO `userTABLE`(`id`, `Name`, `User`, `Password`, `ChooseType`) VALUES (Null,'$Name','$User','$Password','$ChooseType')";
+		$sql = "INSERT INTO `userTABLE`(`id`, `Name`, `User`, `Password`, `ChooseType`, `NameShop`, `Address`, `Phone`, `UrlPicture`, `Lat`, `Lng`, `Token`) 
+		VALUES (Null,'$Name','$User','$Password','$ChooseType', '', '', '', '', '', '', '')";
 
 		$result = mysqli_query($link, $sql);
 

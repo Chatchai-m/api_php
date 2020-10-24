@@ -23,16 +23,16 @@ if (isset($_GET)) {
 //		return 1;?
 		$OrderDateTime = $_GET['OrderDateTime'];
 		$idShop        = $_GET['idShop'];
-		$NameShop      = $_GET['NameShop'];
-		$Distance      = $_GET['Distance'];
-		$Transport     = $_GET['Transport'];
+		$NameShop      = $_GET['nameShop'];
+		$Distance      = $_GET['distance'];
+		$Transport     = $_GET['transport'];
 		$idFood        = $_GET['idFood'];
-		$NameFood      = $_GET['NameFood'];
-		$Price         = $_GET['Price'];
-		$Amount        = $_GET['Amount'];
-		$Sum           = $_GET['Sum'];
+		$NameFood      = $_GET['nameFood'];
+		$Price         = $_GET['price'];
+		$Amount        = $_GET['amount'];
+		$Sum           = $_GET['sum'];
 		$idRider       = $_GET['idRider'];
-		$Status        = $_GET['Status'];
+		$Status        = $_GET['status'];
 
 
 //		print_r($_GET);

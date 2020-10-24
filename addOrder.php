@@ -21,7 +21,7 @@ if (isset($_GET)) {
 	if ($_GET['isAdd'] == 'true') {
 		
 //		return 1;?
-		$OrderDateTime = $_GET['OrderDateTime'];
+		$OrderDateTime = $_GET['orderDateTime'];
 		$idShop        = $_GET['idShop'];
 		$NameShop      = $_GET['nameShop'];
 		$Distance      = $_GET['distance'];

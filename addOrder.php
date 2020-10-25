@@ -22,8 +22,8 @@ if (isset($_GET)) {
 		
 //		return 1;?
 		$OrderDateTime = $_GET['orderDateTime'];
-		$idUser        = $_GET['idUser'];
-		$NameUser      = $_GET['nameUser'];
+		$idUser        = '';//$_GET['idUser'];
+		$NameUser      = '';//$_GET['nameUser'];
 		$idShop        = $_GET['idShop'];
 		$NameShop      = $_GET['nameShop'];
 		$Distance      = $_GET['distance'];

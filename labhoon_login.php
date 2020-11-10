@@ -18,6 +18,42 @@ if (!$link->set_charset("utf8"))
   exit();
 }
 
+if($_POST)
+{
+  if($_POST['email'] && $_POST['password'])
+  {
+    $data = [
+      'status' => false,
+      'token' => ''
+    ];
+    switch ($_POST['email']) {
+      case 'mos@gmail.com':
+        $data = [
+          'email' => 'mos@gmail.com',
+          'token' => 'mos1234',
+          'status' => true,
+        ];
+        break;
+      case 'max@gmail.com':
+        $data = [
+          'email' => 'max@gmail.com',
+          'token' => 'max1234',
+          'status' => true,
+        ];
+        break;
+      case 'milk@gmail.com':
+        $data = [
+          'email' => 'milk@gmail.com',
+          'token' => 'milk1234',
+          'status' => true,
+        ];
+        break;
+    }
+    
+    echo json_encode($data);
+    exit;
+  }
+}
 echo "Hello world";
 
 mysqli_close($link);

@@ -2,8 +2,8 @@
 header("content-type:text/javascript;charset=utf-8");
 error_reporting(0);
 error_reporting(E_ERROR | E_PARSE);
-// $link = mysqli_connect('localhost', 'food', '990110?', "food");
-$link = mysqli_connect('localhost', 'root', '', "rv");
+$link = mysqli_connect('localhost', 'food', '990110?', "food");
+// $link = mysqli_connect('localhost', 'root', '', "rv");
 if (!$link) {
   echo "Error: Unable to connect to MySQL." . PHP_EOL;
   echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;

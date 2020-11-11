@@ -33,7 +33,7 @@ if($_POST)
     if($row)
     {
       if( 
-        $row['token'] < date('Y-m-d H:i:s')
+        $row['expire_date'] < date('Y-m-d H:i:s')
       )
       {
         $rs = [

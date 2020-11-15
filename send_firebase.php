@@ -1,5 +1,7 @@
 <?php
 
+echo "Chatchai ";
+exit;
 
 define('API_ACCESS_KEY', 'AAAAg2r2EMA:APA91bFZpe0_PGbZ4710RTBKKUClTUlAKaJp9_PDBY7DzXNbMSpoSYKiiMBv0qtowMZw12_56MbJfTjwzzj60YHdMp5SUPGPPvJsAQGQkbMTQpIZuZlQjifZ66Nx86rlyeqBljMPEJyp');
 

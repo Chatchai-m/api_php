@@ -6,13 +6,14 @@
 define('API_ACCESS_KEY', 'AAAAg2r2EMA:APA91bFZpe0_PGbZ4710RTBKKUClTUlAKaJp9_PDBY7DzXNbMSpoSYKiiMBv0qtowMZw12_56MbJfTjwzzj60YHdMp5SUPGPPvJsAQGQkbMTQpIZuZlQjifZ66Nx86rlyeqBljMPEJyp');
 
 $fcmUrl = 'https://fcm.googleapis.com/fcm/send';
-$token = "e44Ls-4CSLW3rK_SZ32nxW:APA91bGM1jvjmJM_bg8Qp37C4sS2TaXBPvjpKitFad4F9_LeQ4p8pzFAEqflWYn0OsS2ASKRwB7S_vsWJz-wnRYOcujDRfQ-6f0ulebJpymsiLpxEeWmsUO2KgkFMaTRs6NVguLxEXgs";
-
+// $token = "e44Ls-4CSLW3rK_SZ32nxW:APA91bGM1jvjmJM_bg8Qp37C4sS2TaXBPvjpKitFad4F9_LeQ4p8pzFAEqflWYn0OsS2ASKRwB7S_vsWJz-wnRYOcujDRfQ-6f0ulebJpymsiLpxEeWmsUO2KgkFMaTRs6NVguLxEXgs";
+// $token = "e44Ls-4CSLW3rK_SZ32nxW:APA91bGM1jvjmJM_bg8Qp37C4sS2TaXBPvjpKitFad4F9_LeQ4p8pzFAEqflWYn0OsS2ASKRwB7S_vsWJz-wnRYOcujDRfQ-6f0ulebJpymsiLpxEeWmsUO2KgkFMaTRs6NVguLxEXgs";
+$token = "eUAwsIIcQWuo1no2hcZ8md:APA91bGdcHKoOCgnvSK_YWeOFcv5GopjZfoQaNzwQTCigkPj9Euqq_CfLsrqwoJ69QZ-rMLtOxr2-S6q8XhJkbu0rfmbJNXhYs96Buc3sdl8EU5qg_GA1hTJ15lptJIHDuItzlHffJfX";
 
 $notification = [
 //write title, description and so on
-'title' =>'title',
-'body' => 'body of message.',
+'title' =>'test - 1',
+'body' => 'Hello world',
 'icon' =>'myIcon', 
 'sound' => 'mySound'
 ];
